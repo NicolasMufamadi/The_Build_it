@@ -1,13 +1,18 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const PORT = 3400
+const dotenv = require('dotenv')
+dotenv.config()
 
 //middleware
 app.use(cors())
 app.use(express.json())
 
+//routers
+const userRoutes = require('./routes/userRoutes')
+app.use('/user/', userRoutes)
 
-app.listen(PORT, () => {
-    console.log(`Server running on https://localhost:${PORT}`)
+
+app.listen(process.env.PORT, () => {
+    console.log(`Server running on https://localhost:${process.env.PORT}`)
 })
