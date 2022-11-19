@@ -1,0 +1,40 @@
+.box {
+    margin-top: 6rem;
+}
+
+.header {
+    font-size: 4.5rem;
+}
+
+.label {
+    font-size: large;
+    margin-left: 74%;
+}
+
+.card {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    padding: 0.5rem;
+    display: block;
+    width: 25%;
+    margin-bottom: 15px;
+    border: 3px solid #950740;
+
+}
+
+.button {
+    width: 10rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #950740;
+}

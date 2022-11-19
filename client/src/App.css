@@ -1,0 +1,22 @@
+.color {
+    color: #950740;
+}
+
+
+.btn {
+    border-color: #950740;
+}
+
+.link {
+    font-size: 1.5rem;
+    color: #950740;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+.link:active {
+    color: black;
+}
